@@ -12,4 +12,4 @@ def main():
 @app.route('/mission')
 
 def mission():
-	return render_templates("mission.html")
+	return render_template("mission.html")
