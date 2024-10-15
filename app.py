@@ -7,3 +7,9 @@ app = Flask (__name__)
 
 def main():
 	return render_template("sigma.html")
+
+
+@app.route('/mission')
+
+def mission():
+	return render_templates("mission.html")
